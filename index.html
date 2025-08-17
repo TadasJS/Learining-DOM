@@ -3,96 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>LearningDOM</title>
+    <title>Learning-DOM</title>k
     <link rel="stylesheet" href="/css/index.css">
 </head>
-<style>
-    body,
-body * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: antiquewhite;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-}
-
-div {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-button {
-    padding: 10px;
-    font-size: 2rem;
-}
-
-p {
-    font-size: 2rem;
-    padding: 10px;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color:pink;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-}
-
-.coloredGap {
-    background-color: rgb(216, 176, 66);
-    border-style:dashed;
-    border-color: rgb(83, 194, 61);
-    border-radius: 20px;
-}
-
-.lempute {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.lempute button {
-
-    background-color: antiquewhite;
-
-}
-
-.lempute div {
-    
-    background-color: black;
-    border: 2px solid red;
-    color: white;
-    border-radius: 50%;
-   
-}
-
-.lempute .yellow {
-    background-color: yellow;
-    color: black;
-}
-</style>
 <body>
     <Header>
         Header content
@@ -153,8 +67,8 @@ let clickCounter = 0;
 turnOnDOM.addEventListener('click', () => {
     ++clickCounter;
     if(clickCounter % 2 === 0){
-        console.log(clickCounter)
-        console.log('geltona...');
+      
+      
         lemputeDOM.classList.add('yellow');
         turnOnDOM.textContent= 'OFF';
     }else {
