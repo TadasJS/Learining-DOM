@@ -1,0 +1,85 @@
+body,
+body * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color:pink;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+.coloredGap {
+    background-color: rgb(216, 176, 66);
+    border-style:dashed;
+    border-color: rgb(83, 194, 61);
+    border-radius: 20px;
+}
+
+.lempute {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.lempute button {
+
+    background-color: antiquewhite;
+
+}
+
+.lempute div {
+    
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+    border-radius: 50%;
+   
+}
+
+.lempute .yellow {
+    background-color: yellow;
+    color: black;
+}
